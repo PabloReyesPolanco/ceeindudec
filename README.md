@@ -1,5 +1,7 @@
 # ceeindudec
 
+The start of a project to build a website for the student organization I belong(ed) in my faculty. In the next section there are the instructions provided by nuxt.js for the implementation of the website
+
 ## Build Setup
 
 ```bash
