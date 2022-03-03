@@ -10,7 +10,11 @@
 
         <p> ¿En qué podemos ayudarte? Escribir texto... </p>
         <p> Si te interesa saber acerca de las opciones de intercambio que ofrece la universidad puedes enterarte en la sección intercambios </p>
+    <div class = "footer"> 
+        <p> © Diseñado por Pablo Reyes, todos los derechos reservados </p>
     </div>
+    </div>
+
 </template>
 
 
@@ -58,5 +62,12 @@ export default {
 .right-column {
     float: right;
     text-align: right;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 </style>
