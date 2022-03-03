@@ -1,9 +1,11 @@
 <template>
-    <div>
-        <div class="container">
-            <h1> CEEIND </h1>
-            <ColorModePicker />
+    <div class = "center">
+        <div class = "row"> 
+            <div class = "left-column"> <h1> CEEIND </h1> </div>
+            <div class= "right-column"> <ColorModePicker /></div>
         </div>
+        <br>
+        
         <h2> Horrible intento de generar un menu</h2>
 
         <p> ¿En qué podemos ayudarte? Escribir texto... </p>
@@ -26,7 +28,35 @@ export default {
 </script>
 
 <style scoped>
-  .container {
-    text-align: center;
-  }
+.container {
+    text-align: right;
+    }
+.column {
+    float: left;
+    width: 50%;
+    }
+    
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(31, 31, 121);
+    padding: 10px;
+    text-align:center
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-column {
+    float:left ;
+    text-align: left;
+}
+
+.right-column {
+    float: right;
+    text-align: right;
+}
 </style>
