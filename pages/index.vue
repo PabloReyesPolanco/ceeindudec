@@ -11,7 +11,7 @@
         <p> ¿En qué podemos ayudarte? Escribir texto... </p>
         <p> Si te interesa saber acerca de las opciones de intercambio que ofrece la universidad puedes enterarte en la sección intercambios </p>
     <div class = "footer"> 
-        <p> © Diseñado por Pablo Reyes, todos los derechos reservados </p>
+        <p> © Diseñado por Pablo Reyes, todos los derechos reservados. </p>
     </div>
     </div>
 
@@ -42,7 +42,7 @@ export default {
     
 .center {
     margin: auto;
-    width: 50%;
+    width: 90%;
     border: 3px solid rgb(31, 31, 121);
     padding: 10px;
     text-align:center
